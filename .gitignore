@@ -1,0 +1,285 @@
+# https://www.toptal.com/developers/gitignore/api/python,django,visualstudiocode에서 생성
+# https://www.toptal.com/developers/gitignore?templates=python,django,visualstudiocode에서 편집
+
+### 장고 ###
+*.통나무
+*.냄비
+*.pyc
+__파이캐시__/
+local_settings.py
+db.sqlite3
+db.sqlite3-저널
+미디어
+
+# 빌드 프로세스에 collectstatic 실행이 포함되어 있으면 staticfiles/를 포함할 필요가 없거나 포함하고 싶지 않을 수 있습니다.
+# Git 저장소에 있습니다. 그에 따라 다음 줄을 업데이트하고 주석 처리를 제거하십시오.
+# <django-project-name>/staticfiles/
+
+### 장고.파이썬 스택 ###
+# 바이트 컴파일/최적화/DLL 파일
+*.py[코드]
+*$py.클래스
+
+# C 확장
+*.그래서
+
+# 유통/포장
+.파이썬
+짓다/
+계란 개발/
+거리/
+다운로드/
+달걀/
+.달걀/
+lib/
+lib64/
+부속/
+SDIST/
+변수/
+바퀴/
+공유/python-wheels/
+*.egg-info/
+.installed.cfg
+*.계란
+명백한
+
+# 파이인스톨러
+# 일반적으로 이러한 파일은 템플릿에서 Python 스크립트로 작성됩니다.
+# PyInstaller가 exe를 빌드하기 전에 날짜/기타 정보를 삽입합니다.
+*.명백한
+*.투기
+
+# 설치 프로그램 로그
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 단위 테스트/커버리지 보고서
+htmlcov/
+.tox/
+.nox/
+.적용 범위
+.적용 범위.*
+.은닉처
+nosetests.xml
+적용 범위.xml
+*.씌우다
+*.py,커버
+.가설/
+.pytest_cache/
+씌우다/
+
+# 번역
+*.mo
+
+# 장고 물건:
+
+# 플라스크 항목:
+사례/
+.webassets-cache
+
+# 스크래피 물건:
+.스크래피
+
+# 스핑크스 문서
+문서/_빌드/
+
+# 파이빌더
+.pybuilder/
+표적/
+
+# 주피터 노트북
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# 파이엔브
+# 라이브러리나 패키지의 경우 코드가
+# 여러 환경에서 실행되도록 의도됨; 그렇지 않으면 체크인하십시오.
+# .파이썬 버전
+
+#파이프
+# pypa/pipenv#598에 따르면 버전 관리에 Pipfile.lock을 포함하는 것이 좋습니다.
+# 단, 협업의 경우 플랫폼별 의존성이나 의존성이 있는 경우
+# 교차 플랫폼 지원이 없으면 pipenv가 작동하지 않는 종속성을 설치할 수 있습니다.
+# 필요한 모든 종속성을 설치합니다.
+#Pipfile.lock
+
+# 시
+# Pipfile.lock과 유사하게, 일반적으로 버전 제어에 poem.lock을 포함하는 것이 좋습니다.
+# 재현성을 보장하기 위해 바이너리 패키지에 특히 권장되며 더
+# 라이브러리에서는 일반적으로 무시됩니다.
+# https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+# Pipfile.lock과 마찬가지로 일반적으로 버전 관리에 pdm.lock을 포함하는 것이 좋습니다.
+#pdm.lock
+# pdm은 프로젝트 전체 구성을 .pdm.toml에 저장하지만 포함하지 않는 것이 좋습니다.
+# 버전 관리에서.
+# https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# 펩 582; 예를 들어 github.com/David-OConnor/pyflow 및 github.com/pdm-project/pdm에서 사용
+__py패키지__/
+
+# 셀러리 재료
+celerybeat-일정
+celerybeat.pid
+
+# SageMath 구문 분석 파일
+*.sage.py
+
+# 환경
+.env
+.venv
+환경/
+벤브/
+ENV/
+env.bak/
+venv.bak/
+
+# 스파이더 프로젝트 설정
+.스파이더프로젝트
+.spyproject
+
+# 로프 프로젝트 설정
+.ropeproject
+
+# mkdoc 문서
+/대지
+
+# 마이피
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# 파이어 유형 검사기
+.pyre/
+
+# pytype 정적 유형 분석기
+.pytype/
+
+# Cython 디버그 기호
+cython_debug/
+
+# 파이참
+# JetBrains 특정 템플릿은 별도의 JetBrains.gitignore에서 유지되며
+# https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore에서 찾을 수 있습니다.
+# 전역 gitignore에 추가하거나 이 파일에 병합할 수 있습니다. 더 많은 핵을 위해
+# 옵션(권장하지 않음) 다음의 주석을 제거하여 전체 아이디어 폴더를 무시할 수 있습니다.
+#.아이디어/
+
+### 파이썬 ###
+# 바이트 컴파일/최적화/DLL 파일
+
+# C 확장
+
+# 유통/포장
+
+# 파이인스톨러
+# 일반적으로 이러한 파일은 템플릿에서 Python 스크립트로 작성됩니다.
+# PyInstaller가 exe를 빌드하기 전에 날짜/기타 정보를 삽입합니다.
+
+# 설치 프로그램 로그
+
+# 단위 테스트/커버리지 보고서
+
+# 번역
+
+# 장고 물건:
+
+# 플라스크 항목:
+
+# 스크래피 물건:
+
+# 스핑크스 문서
+
+# 파이빌더
+
+# 주피터 노트북
+
+# IPython
+
+# 파이엔브
+# 라이브러리나 패키지의 경우 코드가
+# 여러 환경에서 실행되도록 의도됨; 그렇지 않으면 체크인하십시오.
+# .파이썬 버전
+
+#파이프
+# pypa/pipenv#598에 따르면 버전 관리에 Pipfile.lock을 포함하는 것이 좋습니다.
+# 단, 협업의 경우 플랫폼별 의존성이나 의존성이 있는 경우
+# 교차 플랫폼 지원이 없으면 pipenv가 작동하지 않는 종속성을 설치할 수 있습니다.
+# 필요한 모든 종속성을 설치합니다.
+
+# 시
+# Pipfile.lock과 유사하게, 일반적으로 버전 제어에 poem.lock을 포함하는 것이 좋습니다.
+# 재현성을 보장하기 위해 바이너리 패키지에 특히 권장되며 더
+# 라이브러리에서는 일반적으로 무시됩니다.
+# https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+
+# pdm
+# Pipfile.lock과 마찬가지로 일반적으로 버전 관리에 pdm.lock을 포함하는 것이 좋습니다.
+# pdm은 프로젝트 전체 구성을 .pdm.toml에 저장하지만 포함하지 않는 것이 좋습니다.
+# 버전 관리에서.
+# https://pdm.fming.dev/#use-with-ide
+
+# 펩 582; 예를 들어 github.com/David-OConnor/pyflow 및 github.com/pdm-project/pdm에서 사용
+
+# 셀러리 재료
+
+# SageMath 구문 분석 파일
+
+# 환경
+
+# 스파이더 프로젝트 설정
+
+# 로프 프로젝트 설정
+
+# mkdoc 문서
+
+# 마이피
+
+# 파이어 유형 검사기
+
+# pytype 정적 유형 분석기
+
+# Cython 디버그 기호
+
+# 파이참
+# JetBrains 특정 템플릿은 별도의 JetBrains.gitignore에서 유지되며
+# https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore에서 찾을 수 있습니다.
+# 전역 gitignore에 추가하거나 이 파일에 병합할 수 있습니다. 더 많은 핵을 위해
+# 옵션(권장하지 않음) 다음의 주석을 제거하여 전체 아이디어 폴더를 무시할 수 있습니다.
+
+### 파이썬 패치 ###
+# 시 로컬 구성 파일 - https://python-poetry.org/docs/configuration/#local-configuration
+시.toml
+
+# 러프
+.ruff_cache/
+
+# LSP 구성 파일
+pyrightconfig.json
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code 스니펫
+
+# Visual Studio Code의 로컬 히스토리
+.역사/
+
+# Visual Studio Code 확장 빌드
+*.vsix
+
+### VisualStudioCode 패치 ###
+# 파일의 모든 로컬 기록 무시
+.역사
+.이온화물
+
+# 끝 https://www.toptal.com/developers/gitignore/api/python,django,visualstudiocode
