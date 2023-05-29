@@ -8,6 +8,8 @@ https://docs.djangoproject.com/en/4.2/howto/deployment/wsgi/
 """
 
 import os
+import pymysql
+conn = pymysql.connect(host='localhost', user='root', password='1234', db='kjhdb', charset='utf8')
 
 from django.core.wsgi import get_wsgi_application
 
